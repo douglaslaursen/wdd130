@@ -19,6 +19,7 @@ nav {
 }
 
 nav a {
+    align-content: center;
     text-align: center;
     color: #fcfbfc;
     text-decoration: none;
@@ -114,7 +115,7 @@ h2 {
 
 .rivers-card, .camping-card, .rapids-card {
     width: 100%;
-    margin: 200px 0;
+    margin: 100px 0;
 
 }
 
@@ -125,7 +126,7 @@ h2 {
 
 .camping-card {
     grid-column: 5/7;
-    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 .rapids-card {
