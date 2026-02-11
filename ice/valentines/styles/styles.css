@@ -51,15 +51,24 @@ h1 {
 }
 
 img {
-    width: 100%;
-    margin: 5% 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 100%;
     margin-top: 0%;
-    grid-column: auto;
+    
 }
 
-h2, p {
-    grid-template-rows: 2/5;
+p {
+    background-color: rgb(255, 171, 171);
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
+
 
 footer {
     background-color: #cf6767;
