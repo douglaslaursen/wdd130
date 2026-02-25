@@ -176,3 +176,21 @@ div.b {
 p {
     background-color: white;
 }
+
+
+/* Css for the Ice page */
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    nav {
+        justify-content: center;
+    }
