@@ -1,14 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 /* Header & footer */
-header {
-    background-color: #FDF9F1;
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    align-content: center;
+    text-align: center;
+    color: #2F1F0F ;
+    text-decoration: none;
+    padding: 10%;
+    border: 1px solid black;
+}
+
+
+
+#headergrid {
+    background-color: #89837d;
     padding: 20px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer {
-    background-color: #89837d;
+    background-color: #7d6752;
     padding: 20px;
     text-align: center;
 }
+
+/* Overall styles */
+img {
+    /* height: 100%; */
+    width: 100px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDF9F1;
+}
+
+body h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    color: #2F1F0F;
+}
+
+body h2 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    color: #2F1F0F;
+}
+
+body p {
+    font-family: 'Source Sans 3', sans-serif;
+    line-height: 1.6;
+    color: #2F1F0F;
+}
+
 
 /* Home page */
 
