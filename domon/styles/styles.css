@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+
 /* Header & footer */
 nav {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    /* height: 50px; */
 }
 
 nav a {
@@ -44,6 +44,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
 
 /* Overall styles */
 img {
@@ -86,4 +87,10 @@ body p {
 
 
 /* Item page */
-
+#item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
