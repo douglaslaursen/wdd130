@@ -5,25 +5,38 @@
 nav {
     display: flex;
     justify-content: flex-end;
+    gap: 15px;
+    /* height: 50px; */
 }
 
 nav a {
-    align-content: center;
+    align-self: center;
     text-align: center;
-    color: #2F1F0F ;
+    font-size: 1.2em;
+    color: #FDF9F1;
     text-decoration: none;
-    padding: 10%;
-    border: 1px solid black;
+    padding: 25px;
 }
 
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+}
 
+#logo_link {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 
 #headergrid {
     background-color: #89837d;
-    padding: 20px;
+    padding: 10px;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 100px 1fr;
 }
 
 footer {
@@ -34,8 +47,8 @@ footer {
 
 /* Overall styles */
 img {
-    /* height: 100%; */
-    width: 100px;
+    height: 100%;
+    /* width: 100px; */
 }
 
 body {
