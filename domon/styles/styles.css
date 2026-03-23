@@ -39,11 +39,29 @@ nav a {
     grid-template-columns: 100px 1fr;
 }
 
+#footer-nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+
+}
+
 footer {
     background-color: #7d6752;
     padding: 20px;
     text-align: center;
 }
+
+#footergrid {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 75px 75px 75px;
+}
+
+.insta-img .twitter-img .facebook-img {
+    align-items: center;
+}
+
 
 
 /* Overall styles */
