@@ -112,3 +112,30 @@ body p {
     gap: 20px;
     padding: 20px;
 }
+
+#items-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.food-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+    margin: 0;
+    margin-bottom: -4px;
+}
+
+.food-item {
+    box-shadow: #89837d 0px 4px 8px;
+}
+
+.item-text {
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 200px;
+    border: 2px solid #2F1F0F;
+    margin: 0;
+}
