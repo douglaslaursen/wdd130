@@ -135,6 +135,9 @@ body p {
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+    font-size: 1.5em;
 }
 
 #home-concept h2 {
@@ -184,6 +187,7 @@ body p {
 
 .sample-items p {
     text-align: center;
+    font-size: 1.5em;
 }
 
 .button {
@@ -251,14 +255,19 @@ main p {
     margin: 20px auto;
 }
 
+main h2 {
+    margin-top: 40px;
+}
+
 #about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-columns: 15px 1fr 2fr 15px;
     align-items: center;
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
     justify-items: right;
+    max-width: 900px;
 }
 
 #about-content img{
@@ -292,7 +301,7 @@ main p {
     gap: 20px;
     padding: 20px;
     margin: 0 auto;
-
+    max-width: 900px;
 }
 
 #grid-steps img {
